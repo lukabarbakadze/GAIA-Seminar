@@ -47,3 +47,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Only track seminar_materials/ (exclude other top-level folders)
+files/
+seminar material/

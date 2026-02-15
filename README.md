@@ -4,18 +4,12 @@ Interactive seminar on building a GPT-style transformer from scratch using PyTor
 
 ## 📚 Contents
 
-- **`seminar_materials/`** - Main teaching materials
-  - `gpt_walkthrough.py` - Step-by-step walkthrough (run like a notebook)
-  - `gpt_model.py` - Clean implementation matching notebook structure
+- **`seminar_materials/`** - All seminar materials
+  - `seminar_notebook_completed.ipynb` - Full interactive notebook with explanations, exercises, and solutions
+  - `gpt_model.py` - Clean GPT model implementation
   - `utils_viz.py` - Visualization utilities
-  - `live_coding_template.ipynb` - Template for live coding session
-  - `seminar_notebook.ipynb` - Interactive notebook with exercises
-  - `chkpts/seminar_notebook_v1_completed.ipynb` - Completed reference
-
-- **`files/`** - Supporting documents
-  - `conversation_email` - Seminar context and requirements
-  - `speaker_guide.md` - Detailed timing and talking points
-  - `good_resources.md` - Additional learning resources
+  - `vefxistyaosani.txt` - Georgian poetry dataset ([source](https://github.com/Anbani/anbani.db/blob/master/datasets/vefxistyaosani.txt))
+  - `images/` - Diagrams and figures used in the notebook
 
 ## 🚀 Quick Start (Google Colab)
 
@@ -27,8 +21,7 @@ Interactive seminar on building a GPT-style transformer from scratch using PyTor
 # 2. Install dependencies
 !pip install torch matplotlib seaborn scikit-learn
 
-# 3. Run the walkthrough
-!python gpt_walkthrough.py
+# 3. Open seminar_notebook_completed.ipynb and follow along
 ```
 
 ## 📖 What You'll Learn
@@ -54,6 +47,18 @@ matplotlib
 seaborn
 scikit-learn
 ```
+
+## 📖 Sources & References
+
+- [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/) — Harvard NLP's line-by-line annotation of *Attention Is All You Need*
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) — Jay Alammar's visual guide to the Transformer architecture
+- [Transformer Architecture (Towards AI)](https://pub.towardsai.net/transformer-architecture-part-1-d157b54315e6) — Detailed walkthrough of Transformer internals
+- [Language Understanding with BERT](https://cameronrwolfe.substack.com/p/language-understanding-with-bert) — Cameron R. Wolfe's deep dive into BERT
+- [Self-Attention from Scratch](https://sebastianraschka.com/blog/2023/self-attention-from-scratch.html) — Sebastian Raschka's step-by-step self-attention tutorial
+- [Andrej Karpathy's minGPT training](https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95) — Minimal GPT training snippet
+- [Andrej Karpathy: Let's build GPT from scratch](https://www.youtube.com/watch?v=XfpMkf4rD6E) — Full video walkthrough of building GPT
+- [Transformer Encoder-Decoder Architecture (ResearchGate)](https://www.researchgate.net/figure/Transformer-Encoder-Decoder-architecture-taken-from-Vaswani-et-al-9-for-illustration_fig2_338223294) — Architecture diagram from Vaswani et al.
+- [Standard Transformer Block (ResearchGate)](https://www.researchgate.net/figure/The-standard-transformer-block_fig2_355391815) — Transformer block diagram
 
 ## 📝 License
 
